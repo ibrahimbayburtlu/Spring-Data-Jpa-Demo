@@ -30,6 +30,4 @@ public class Lesson {
     @ManyToMany(mappedBy = "lessons")
     private List<Teacher> teachers;
 
-
-
 }
